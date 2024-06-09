@@ -11,7 +11,7 @@ export default function ({ command, mode }) {
     base: './',
     server: {
       host: true,
-      port: 9095,
+      port: 9090,
       proxy: {
         '/api': env.VITE_SERVER_ADDR
       }
